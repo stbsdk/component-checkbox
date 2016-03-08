@@ -1,0 +1,12 @@
+/* spa-component-checkbox: release */
+.component.checkBox {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border: 2px solid #888;
+    background-color: #bbb;
+    vertical-align: bottom; }
+    .component.checkBox.checked {
+        background-color: orange; }
