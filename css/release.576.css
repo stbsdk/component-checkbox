@@ -1,5 +1,6 @@
-/* spa-component-checkbox: release */
-.component.checkBox {
+.stb-component-checkbox {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
     width: 16px;
@@ -8,5 +9,7 @@
     border: 2px solid #888;
     background-color: #bbb;
     vertical-align: bottom; }
-    .component.checkBox.checked {
+    .stb-component-checkbox.hidden {
+        display: none; }
+    .stb-component-checkbox.checked {
         background-color: orange; }

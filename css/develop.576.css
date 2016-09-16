@@ -1,5 +1,6 @@
-/* spa-component-checkbox: release */
-.component.checkBox {
+.stb-component-checkbox {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
     width: 16px;
@@ -7,6 +8,12 @@
     line-height: 16px;
     border: 2px solid #888;
     background-color: #bbb;
-    vertical-align: bottom; }
-    .component.checkBox.checked {
+    vertical-align: bottom;
+    outline: 1px dashed #005000;
+    outline-offset: -1px; }
+    .stb-component-checkbox.hidden {
+        display: none; }
+    .stb-component-checkbox.checked {
         background-color: orange; }
+    .stb-component-checkbox.focus {
+        outline: 1px dashed red; }
