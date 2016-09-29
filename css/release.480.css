@@ -11,5 +11,7 @@
     vertical-align: bottom; }
     .stb-component-checkbox.hidden {
         display: none; }
+    .stb-component-checkbox.grouped {
+        border-radius: 10px; }
     .stb-component-checkbox.checked {
         background-color: orange; }
