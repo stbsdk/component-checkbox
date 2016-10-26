@@ -17,7 +17,7 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spa-component-checkbox": "spasdk/component-checkbox"
+        "spa-component-checkbox": "1.*.*"
     },
     "devDependencies": {
         "eslint": "3.*.*",
